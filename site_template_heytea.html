@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋招时间轴 · 手账版</title>
+<style>
+:root{
+  --paper:#fbfaf5; --ink:#161513; --grey:#8a887f; --faint:#c9c7bd;
+  --seal:#d23b2e; --wash:#f1efe8;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);
+  font-family:-apple-system,"PingFang SC","Noto Sans SC",sans-serif;
+  -webkit-font-smoothing:antialiased}
+
+/* 手绘感通用件 */
+.sk{border:2px solid var(--ink);
+  border-radius:255px 15px 225px 15px / 15px 225px 15px 255px}
+.sk2{border:2px solid var(--ink);
+  border-radius:15px 225px 15px 255px / 255px 15px 225px 15px}
+
+/* ── 顶栏 ── */
+header{position:sticky;top:0;z-index:50;background:rgba(251,250,245,.95);
+  backdrop-filter:blur(10px);border-bottom:2px solid var(--ink)}
+.head-in{max-width:860px;margin:0 auto;padding:16px 20px 12px}
+.title-row{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap}
+h1{font-size:2rem;font-weight:800;letter-spacing:.04em;line-height:1;position:relative}
+h1 svg.pour{position:absolute;right:-46px;top:-16px;width:44px;height:40px}
+.stats{color:var(--grey);font-size:.82rem;font-weight:600;padding-bottom:4px}
+.stats b{color:var(--ink)}
+.controls{display:flex;gap:12px;margin-top:14px;align-items:center;flex-wrap:wrap}
+.seg{display:flex;gap:0;overflow:hidden}
+.seg button{border:2px solid var(--ink);background:var(--paper);padding:7px 16px;
+  font-size:.85rem;font-weight:700;color:var(--ink);cursor:pointer;
+  transition:all .15s;margin-left:-2px}
+.seg button:first-child{margin-left:0;
+  border-radius:255px 0 0 15px / 15px 0 0 255px}
+.seg button:last-child{border-radius:0 15px 225px 0 / 0 225px 15px 0}
+.seg button.on{background:var(--ink);color:var(--paper)}
+.chk{display:flex;align-items:center;gap:7px;font-size:.85rem;font-weight:700;
+  cursor:pointer;user-select:none}
+.chk .box{width:17px;height:17px;border:2px solid var(--ink);border-radius:4px 8px 5px 9px;
+  display:grid;place-items:center;background:var(--paper);transition:all .12s}
+.chk input{display:none}
+.chk input:checked + .box{background:var(--ink)}
+.chk input:checked + .box::after{content:"✓";color:var(--paper);font-size:.72rem;font-weight:900}
+.chips{display:flex;gap:9px;overflow-x:auto;padding:12px 0 14px;
+  scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;background:var(--paper);color:var(--ink);border:2px solid var(--ink);
+  border-radius:99px;padding:5px 14px;font-size:.8rem;font-weight:700;
+  cursor:pointer;white-space:nowrap;
+  transition:background .12s,color .12s,box-shadow .12s}
+body.intro-done .chip{transition:transform .12s,background .12s,color .12s,box-shadow .12s}
+.chip:nth-child(odd){transform:rotate(-.6deg)}
+.chip:nth-child(even){transform:rotate(.5deg)}
+.chip:hover{transform:rotate(0) translateY(-2px);box-shadow:3px 3px 0 var(--ink)}
+.chip.on{background:var(--ink);color:var(--paper)}
+
+/* ── 时间轴 ── */
+main{max-width:860px;margin:0 auto;padding:34px 20px 60px}
+.day{position:relative;padding-left:40px}
+.day::before{content:"";position:absolute;left:10px;top:10px;bottom:-10px;width:3px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='40'%3E%3Cpath d='M1.5 0 C 2.6 7, 0.4 13, 1.6 20 C 2.7 27, 0.5 33, 1.5 40' stroke='%23161513' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+  background-repeat:repeat-y}
+.day-head{position:relative;margin-bottom:16px}
+.day-head .node{position:absolute;left:-40px;top:0;width:24px;height:24px}
+.day-date{font-size:1.45rem;font-weight:800;letter-spacing:.02em;display:inline-block}
+.day.urgent .day-date{
+  background:linear-gradient(transparent 62%, rgba(210,59,46,.28) 62% 92%, transparent 92%)}
+.day-meta{font-size:.8rem;color:var(--grey);font-weight:600;margin-top:3px}
+.cards{display:flex;flex-direction:column;gap:14px;margin-bottom:36px}
+
+/* ── 卡片：手绘贴纸 ── */
+.card{display:block;text-decoration:none;color:inherit;background:#fff;
+  padding:15px 17px;position:relative;
+  border:2px solid var(--ink);
+  border-radius:255px 15px 225px 15px / 15px 225px 15px 255px;
+  transition:box-shadow .16s ease;
+  opacity:0;transform:translateY(14px)}
+.card.in{transition:transform .16s ease,box-shadow .16s ease}
+.card:nth-child(even){
+  border-radius:15px 225px 15px 255px / 255px 15px 225px 15px}
+.card.in{opacity:1;transform:translateY(0) rotate(0)}
+.card:hover{transform:translateY(-3px) rotate(-.4deg);box-shadow:5px 5px 0 var(--ink)}
+.c-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.c-name{font-size:1.14rem;font-weight:800}
+.c-prog{font-size:.85rem;font-weight:700;color:var(--ink);
+  background:linear-gradient(transparent 60%, rgba(22,21,19,.14) 60% 90%, transparent 90%)}
+.c-badges{display:flex;gap:7px;margin-left:auto;flex-wrap:wrap}
+.pill{font-size:.7rem;font-weight:800;padding:3px 9px;border:2px solid var(--ink);
+  border-radius:99px;white-space:nowrap;transform:rotate(1deg)}
+.pill.days{border-color:var(--seal);color:var(--seal)}
+.pill.days.hot{background:var(--seal);border-color:var(--seal);color:#fff;
+  transform:rotate(-2deg)}
+.pill.multi{background:var(--wash);border-style:dashed}
+.c-mid{display:flex;gap:7px;flex-wrap:wrap;margin-top:9px}
+.tag{font-size:.73rem;font-weight:600;color:var(--ink);background:var(--paper);
+  border:1.5px solid var(--faint);border-radius:6px 10px 7px 11px;padding:2px 8px}
+.tag.ind{border:1.5px solid var(--ink)}
+.c-bot{display:flex;align-items:center;gap:10px;margin-top:11px;
+  font-size:.8rem;color:var(--grey);font-weight:600}
+.c-go{margin-left:auto;color:var(--ink);font-weight:800;font-size:.82rem;
+  display:flex;align-items:center;gap:5px}
+.c-go.muted{color:var(--grey);font-weight:600}
+.card.static{cursor:default}
+.c-go svg{width:26px;height:13px;transition:transform .16s}
+.card:hover .c-go svg{transform:translateX(4px)}
+.empty{text-align:center;color:var(--grey);padding:70px 0;font-weight:600}
+.empty svg{width:90px;height:54px;display:block;margin:0 auto 12px}
+footer{max-width:860px;margin:0 auto;padding:20px 20px 44px;color:var(--grey);
+  font-size:.76rem;line-height:1.8;font-weight:500;border-top:2px solid var(--ink)}
+footer .doodle{display:block;width:120px;height:34px;margin-bottom:8px}
+@media(max-width:560px){
+  h1{font-size:1.5rem}
+  h1 svg.pour{right:-38px;width:36px}
+  .c-badges{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="head-in">
+    <div class="title-row">
+      <h1>秋招时间轴
+        <svg class="pour" viewBox="0 0 44 40" fill="none" stroke="#161513" stroke-width="2.4" stroke-linecap="round">
+          <path d="M6 4 C 14 2, 24 6, 28 14"/>
+          <circle cx="31" cy="20" r="1.4" fill="#161513"/>
+          <circle cx="33" cy="25" r="1.2" fill="#161513"/>
+          <path d="M26 30 h 14 l -2 8 h -10 z"/>
+        </svg>
+      </h1>
+      <span class="stats" id="stats"></span>
+    </div>
+    <div class="controls">
+      <div class="seg" id="axis">
+        <button data-ax="deadline" class="on">按截止日期</button>
+        <button data-ax="seen">按收录日期</button>
+      </div>
+      <label class="chk"><input type="checkbox" id="only27"><span class="box"></span>只看2027届</label>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+</header>
+<main id="tl"></main>
+<footer>
+  <svg class="doodle" viewBox="0 0 120 34" fill="none" stroke="#8a887f" stroke-width="2" stroke-linecap="round">
+    <path d="M4 30 h 112"/>
+    <path d="M18 30 l 6 -18 m 4 18 l -6 -18 m -6 9 h 10"/>
+    <circle cx="42" cy="22" r="6"/>
+    <path d="M42 16 v -5 m -3 3 c 2 -3 4 -3 6 0"/>
+  </svg>
+  数据由自动化管线每日聚合自公开招聘信息，多渠道交叉核验（✕N 为确认渠道数）。
+  信息以企业官方发布为准；无直链条目请按卡片提示搜索官方渠道投递。
+</footer>
+<script>/*__GSAP_LIB__*/</script>
+<script>/*__ST_LIB__*/</script>
+<script>
+const JOBS = /*__DATA__*/[];
+
+const $ = s => document.querySelector(s);
+const todayStr = new Date().toISOString().slice(0,10);
+let axis = "deadline", only27 = false, industry = "全部";
+
+const NODE_SVG = `<svg viewBox="0 0 24 24" fill="none" stroke="#161513" stroke-width="2.2">
+  <path d="M12 3 C 17 3, 21 7, 21 12 C 21 17, 17 21, 12 21 C 7 21, 3 17.5, 3 12 C 3 7, 6.5 3.2, 12 3 Z"/>
+  <circle cx="12" cy="12" r="3.4" fill="#161513"/></svg>`;
+const NODE_SEAL = NODE_SVG.replaceAll("#161513","#d23b2e");
+const ARROW = `<svg viewBox="0 0 26 13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+  <path d="M2 7 C 8 5.5, 15 6.5, 22 6.2 M17 2.5 C 19 4, 21 5.5, 23 6.3 C 21 7.5, 19 9, 17.5 10.8"/></svg>`;
+const BUBBLES = `<svg viewBox="0 0 90 54" fill="none" stroke="#8a887f" stroke-width="2" stroke-linecap="round">
+  <ellipse cx="20" cy="40" rx="4" ry="3"/><ellipse cx="32" cy="28" rx="6" ry="4.5"/>
+  <path d="M48 6 C 60 2, 76 6, 78 14 C 80 22, 68 26, 56 24 C 46 22.5, 40 16, 44 10 C 45.5 8, 46.5 7, 48 6 Z"/></svg>`;
+
+const inds = ["全部", ...new Set(JOBS.map(j=>j.industry))];
+$("#chips").innerHTML = inds.map(i=>
+  `<button class="chip${i==="全部"?" on":""}" data-i="${i}">${i}</button>`).join("");
+
+function daysLeft(d){ return Math.round((new Date(d) - new Date(todayStr))/864e5); }
+
+function card(j){
+  const url = j.apply_url || null;
+  const kind = url ? "网申直链" : "搜索官方公众号投递";
+  const dl = j.deadline ? daysLeft(j.deadline) : null;
+  const days = dl===null ? "" :
+    `<span class="pill days${dl<=7?" hot":""}">${dl===0?"今天截止":"剩 "+dl+" 天"}</span>`;
+  const multi = j.confirmed_by>=2 ? `<span class="pill multi">✕${j.confirmed_by} 渠道确认</span>` : "";
+  const open = url ? `<a class="card" href="${url}" target="_blank" rel="noopener">`
+                   : `<div class="card static">`;
+  return `${open}
+    <div class="c-top">
+      <span class="c-name">${j.company}</span>
+      ${j.program?`<span class="c-prog">${j.program}</span>`:""}
+      <span class="c-badges">${days}${multi}</span>
+    </div>
+    <div class="c-mid">
+      <span class="tag ind">${j.industry}</span>
+      <span class="tag">${j.cohort}</span><span class="tag">${j.batch}</span>
+      ${(j.positions||[]).slice(0,3).map(p=>`<span class="tag">${p}</span>`).join("")}
+    </div>
+    <div class="c-bot">
+      <span>${(j.locations||[]).slice(0,4).join(" · ")||""}</span>
+      <span class="c-go${url?"":" muted"}">${kind}${url?" "+ARROW:""}</span>
+    </div>${url?"</a>":"</div>"}`;
+}
+
+function render(){
+  let list = JOBS.filter(j =>
+    (!only27 || j.cohort==="2027届") &&
+    (industry==="全部" || j.industry===industry));
+  const groups = [];
+  if (axis==="deadline"){
+    const dated = list.filter(j=>j.deadline).sort((a,b)=>a.deadline<b.deadline?-1:1);
+    const byd = {};
+    dated.forEach(j=>(byd[j.deadline] ||= []).push(j));
+    for (const d of Object.keys(byd)){
+      const dl = daysLeft(d);
+      groups.push({date:d, meta:(dl===0?"今天截止！":"距截止还有 "+dl+" 天"),
+        cls:dl<=7?"urgent":"", items:byd[d]});
+    }
+    const pending = list.filter(j=>!j.deadline)
+      .sort((a,b)=>a.first_seen<b.first_seen?1:-1);
+    if (pending.length) groups.push({date:"截止待定", meta:"以官方渠道公布为准，先到先得",
+      cls:"pending", items:pending});
+  } else {
+    const bys = {};
+    list.forEach(j=>(bys[j.first_seen] ||= []).push(j));
+    for (const d of Object.keys(bys).sort().reverse()){
+      groups.push({date:d, meta:(d===todayStr?"今日新收录":"收录 "+bys[d].length+" 条"),
+        cls:d===todayStr?"urgent":"", items:bys[d]});
+    }
+  }
+  $("#tl").innerHTML = groups.length ? groups.map(g=>
+    `<section class="day ${g.cls}">
+      <div class="day-head">
+        <span class="node">${g.cls==="urgent"?NODE_SEAL:NODE_SVG}</span>
+        <div class="day-date">${g.date}</div>
+        <div class="day-meta">${g.meta} · ${g.items.length} 条</div>
+      </div>
+      <div class="cards">${g.items.map(card).join("")}</div>
+    </section>`).join("")
+    : `<div class="empty">${BUBBLES}没有符合筛选的条目，换个条件想想？</div>`;
+  const n27 = JOBS.filter(j=>j.cohort==="2027届").length;
+  $("#stats").innerHTML = `共 <b>${JOBS.length}</b> 条 · 2027届 <b>${n27}</b> 条 · 更新于 ${todayStr}`;
+  animateCards();
+}
+
+/* ── 动效层：GSAP 为主，缺席时退回 IntersectionObserver ── */
+const hasGSAP = typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined";
+const reduceMotion = !!(window.matchMedia
+  && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+if (hasGSAP) gsap.registerPlugin(ScrollTrigger);
+
+function animateCards(){
+  const cards = document.querySelectorAll(".card");
+  if (reduceMotion || (!hasGSAP && !window.IntersectionObserver)){
+    cards.forEach(c=>c.classList.add("in"));
+    return;
+  }
+  if (!hasGSAP){
+    const io = new IntersectionObserver(es=>es.forEach(e=>{
+      if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);}
+    }),{rootMargin:"0px 0px -6% 0px"});
+    cards.forEach((c,i)=>{c.style.transitionDelay=(i%8)*30+"ms";io.observe(c);});
+    return;
+  }
+  ScrollTrigger.getAll().forEach(t=>t.kill());
+  /* 贴纸落桌：从下方带随机歪角弹入；完成后交还 CSS 管辖（hover 动效不打架） */
+  ScrollTrigger.batch(".card", {
+    start: "top 90%", once: true, interval: 0.08,
+    onEnter: batch => gsap.fromTo(batch,
+      { y: 30, autoAlpha: 0, rotation: i => (i%2 ? 1.6 : -1.6) },
+      { y: 0, autoAlpha: 1, rotation: 0, duration: .55, ease: "back.out(1.5)",
+        stagger: .07, overwrite: true,
+        onComplete(){ batch.forEach(el=>{
+          el.classList.add("in"); gsap.set(el,{clearProps:"all"});
+        }); } })
+  });
+  /* 手绘墨点节点：进入视口时盖章式砸下 */
+  document.querySelectorAll(".day-head .node").forEach(node=>{
+    gsap.from(node, {
+      scale: 0, rotation: -35, transformOrigin: "50% 50%",
+      duration: .5, ease: "back.out(2.2)",
+      scrollTrigger: { trigger: node, start: "top 94%", once: true }
+    });
+  });
+  ScrollTrigger.refresh();
+}
+
+/* 切换轴/筛选：旧内容快出 → 重排 → 新内容弹入 */
+function switchRender(){
+  if (!hasGSAP || reduceMotion){ render(); return; }
+  gsap.to("#tl", { autoAlpha: 0, y: 12, duration: .16, ease: "power1.in",
+    onComplete(){
+      render();
+      gsap.fromTo("#tl", { autoAlpha: 0, y: 12 },
+        { autoAlpha: 1, y: 0, duration: .28, ease: "power2.out" });
+    } });
+}
+
+/* 首屏入场编排（只跑一次） */
+function intro(){
+  if (!hasGSAP || reduceMotion) return;
+  const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+  tl.from("h1", { y: 26, autoAlpha: 0, rotation: -2, duration: .6, ease: "back.out(1.7)" })
+    .from(".stats", { y: 10, autoAlpha: 0, duration: .4 }, "-=.3")
+    .from(".controls > *", { y: 12, autoAlpha: 0, stagger: .09, duration: .4 }, "-=.25")
+    .from(".chip", { y: 14, autoAlpha: 0, stagger: .035, duration: .35,
+      ease: "back.out(2)", clearProps: "all" }, "-=.2")
+    .call(()=>document.body.classList.add("intro-done"));
+  /* 标题旁的倾倒涂鸦：墨线描画 + 茶点滴落 */
+  document.querySelectorAll("h1 .pour path").forEach(p=>{
+    if (typeof p.getTotalLength !== "function") return;
+    const L = p.getTotalLength();
+    gsap.fromTo(p, { strokeDasharray: L, strokeDashoffset: L },
+      { strokeDashoffset: 0, duration: .8, ease: "power2.inOut", delay: .45 });
+  });
+  gsap.from("h1 .pour circle", { y: -8, autoAlpha: 0, stagger: .12,
+    duration: .45, ease: "bounce.out", delay: 1.1 });
+}
+
+$("#axis").addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  axis=b.dataset.ax;
+  document.querySelectorAll("#axis button").forEach(x=>x.classList.toggle("on",x===b));
+  switchRender();
+});
+$("#chips").addEventListener("click",e=>{
+  const b=e.target.closest(".chip"); if(!b) return;
+  industry=b.dataset.i;
+  document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("on",x===b));
+  switchRender();
+});
+$("#only27").addEventListener("change",e=>{only27=e.target.checked;switchRender();});
+render();
+intro();
+</script>
+</body>
+</html>
