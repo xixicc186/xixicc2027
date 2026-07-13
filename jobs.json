@@ -1,110 +1,5 @@
 [
   {
-    "company": "四川省旅投集团",
-    "cohort": "2026届",
-    "batch": "正式批",
-    "program": null,
-    "industry": "央国企",
-    "positions": [],
-    "locations": [],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-13",
-    "campus_only": false,
-    "first_seen": "2026-07-09",
-    "last_seen": "2026-07-09",
-    "confirmed_by": 1
-  },
-  {
-    "company": "航天科技四院四十一所",
-    "cohort": "2027届",
-    "batch": "实习",
-    "program": null,
-    "industry": "军工/研究所",
-    "positions": [
-      "航空航天类",
-      "兵器类",
-      "人工智能类",
-      "计算机类",
-      "机械类",
-      "电子通信类"
-    ],
-    "locations": [
-      "西安"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-13",
-    "campus_only": false,
-    "first_seen": "2026-07-08",
-    "last_seen": "2026-07-08",
-    "confirmed_by": 1
-  },
-  {
-    "company": "苏州相城区教育局",
-    "cohort": "2026届",
-    "batch": "正式批",
-    "program": null,
-    "industry": "高校/事业单位",
-    "positions": [],
-    "locations": [
-      "苏州"
-    ],
-    "apply_url": "http://www.xcjyxx.com/",
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-13",
-    "campus_only": false,
-    "first_seen": "2026-07-10",
-    "last_seen": "2026-07-10",
-    "confirmed_by": 1
-  },
-  {
-    "company": "重庆新华书店",
-    "cohort": "2026届",
-    "batch": "正式批",
-    "program": "管培生",
-    "industry": "央国企",
-    "positions": [
-      "综合管理类",
-      "资产财务管理类"
-    ],
-    "locations": [
-      "重庆市"
-    ],
-    "apply_url": "https://www.cqrc.net/gzw/index/",
-    "official_wechat": "http://weixin.qq.com/r/tnXt9W3EejAFrSmW9yCk",
-    "qr_image": null,
-    "deadline": "2026-07-13",
-    "campus_only": false,
-    "first_seen": "2026-07-10",
-    "last_seen": "2026-07-10",
-    "confirmed_by": 1
-  },
-  {
-    "company": "青山区教育局",
-    "cohort": "不限",
-    "batch": "其他",
-    "program": null,
-    "industry": "高校/事业单位",
-    "positions": [
-      "教师"
-    ],
-    "locations": [
-      "武汉"
-    ],
-    "apply_url": "https://szrs.rsj.wuhan.gov.cn/whks",
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-13",
-    "campus_only": false,
-    "first_seen": "2026-07-07",
-    "last_seen": "2026-07-07",
-    "confirmed_by": 1
-  },
-  {
     "company": "中国国际可持续交通创新和知识中心",
     "cohort": "2026届",
     "batch": "正式批",
@@ -505,6 +400,28 @@
     "confirmed_by": 1
   },
   {
+    "company": "三支一扶",
+    "cohort": "不限",
+    "batch": "其他",
+    "program": null,
+    "industry": "其他",
+    "positions": [
+      "支教",
+      "支农",
+      "支医",
+      "帮扶乡村振兴"
+    ],
+    "locations": [],
+    "apply_url": "http://www.hebpta.com.cn",
+    "official_wechat": "http://weixin.qq.com/r/YkOLk83EmJDnrYnw9xZw",
+    "qr_image": null,
+    "deadline": "2026-07-20",
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "兵器工业202所",
     "cohort": "2027届",
     "batch": "开放日",
@@ -705,6 +622,31 @@
     "campus_only": false,
     "first_seen": "2026-07-10",
     "last_seen": "2026-07-10",
+    "confirmed_by": 1
+  },
+  {
+    "company": "江西农商银行",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "银行/金融",
+    "positions": [
+      "管培生",
+      "专业技术岗",
+      "财务税收岗",
+      "信息科技岗",
+      "客户经理岗"
+    ],
+    "locations": [
+      "江西"
+    ],
+    "apply_url": "https://jxnsyh.zhaopin.com",
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": "2026-07-27",
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -1003,8 +945,8 @@
     "deadline": "2026-08-23",
     "campus_only": false,
     "first_seen": "2026-07-09",
-    "last_seen": "2026-07-10",
-    "confirmed_by": 3
+    "last_seen": "2026-07-13",
+    "confirmed_by": 4
   },
   {
     "company": "绿城中国",
@@ -2223,6 +2165,29 @@
     "confirmed_by": 1
   },
   {
+    "company": "一方制药",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "医药代表"
+    ],
+    "locations": [
+      "广州",
+      "佛山",
+      "石家庄"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "万绿达",
     "cohort": "不限",
     "batch": "实习",
@@ -2256,6 +2221,27 @@
     "campus_only": false,
     "first_seen": "2026-07-11",
     "last_seen": "2026-07-11",
+    "confirmed_by": 1
+  },
+  {
+    "company": "三益药业",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "制药工"
+    ],
+    "locations": [
+      "芜湖"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -2328,6 +2314,55 @@
     "campus_only": false,
     "first_seen": "2026-06-24",
     "last_seen": "2026-06-24",
+    "confirmed_by": 1
+  },
+  {
+    "company": "东方电气",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "玻璃钢工",
+      "检查工",
+      "应用技术",
+      "设计岗",
+      "技能一线工人",
+      "营销服务中心-服务工程师（2026届应届毕业生）的需求申请"
+    ],
+    "locations": [
+      "包头",
+      "成都",
+      "德阳"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中交三航局厦门分公司",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "党建宣传岗"
+    ],
+    "locations": [
+      "厦门"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -2481,8 +2516,8 @@
     "deadline": null,
     "campus_only": false,
     "first_seen": "2026-06-29",
-    "last_seen": "2026-06-29",
-    "confirmed_by": 2
+    "last_seen": "2026-07-13",
+    "confirmed_by": 3
   },
   {
     "company": "中兵通信装备研究院",
@@ -2553,6 +2588,57 @@
     "confirmed_by": 1
   },
   {
+    "company": "中化七建重庆",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "管工（26、27校招）",
+      "铆工（26、27校招）",
+      "焊工（26、27校招）",
+      "电工（26、27校招）",
+      "起重工（26、27校招）",
+      "钳工（26、27校招）",
+      "仪表工（26、27校招）"
+    ],
+    "locations": [
+      "重庆"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中化二建",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "造价岗",
+      "设备材料岗",
+      "安全岗",
+      "施工技术员"
+    ],
+    "locations": [
+      "全国"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "中化商务",
     "cohort": "2027届",
     "batch": "实习",
@@ -2583,6 +2669,49 @@
     "first_seen": "2026-06-30",
     "last_seen": "2026-07-03",
     "confirmed_by": 2
+  },
+  {
+    "company": "中化学建设投资",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "工程经济岗【校招】",
+      "工程技术岗【校招】"
+    ],
+    "locations": [
+      "全国"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中南工业",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "机械设计研发"
+    ],
+    "locations": [
+      "南阳"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
   },
   {
     "company": "中南民族大学",
@@ -2633,6 +2762,28 @@
     "campus_only": false,
     "first_seen": "2026-06-30",
     "last_seen": "2026-07-09",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中国中材海外",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "国际市场法务助理",
+      "国际市场助理"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -2687,6 +2838,27 @@
     "confirmed_by": 1
   },
   {
+    "company": "中国医药联合工程广州",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "暖通设计工程师"
+    ],
+    "locations": [
+      "广州"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "中国商飞",
     "cohort": "2026届",
     "batch": "实习",
@@ -2701,6 +2873,27 @@
     "campus_only": false,
     "first_seen": "2026-06-16",
     "last_seen": "2026-06-16",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中国外运长航",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "经营分析与运营管理岗(J10122)"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -2785,6 +2978,23 @@
     "confirmed_by": 1
   },
   {
+    "company": "中国建研院",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "央国企",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "中国日报",
     "cohort": "不限",
     "batch": "实习",
@@ -2806,6 +3016,27 @@
     "confirmed_by": 1
   },
   {
+    "company": "中国有色刚果矿业",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "会计"
+    ],
+    "locations": [
+      "刚果(金)"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "中国核电",
     "cohort": "不限",
     "batch": "开放日",
@@ -2823,6 +3054,27 @@
     "confirmed_by": 1
   },
   {
+    "company": "中国环球租赁",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "纪检岗"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "中国电信",
     "cohort": "2026届",
     "batch": "正式批",
@@ -2837,6 +3089,32 @@
     "campus_only": false,
     "first_seen": "2026-07-11",
     "last_seen": "2026-07-11",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中国电子",
+    "cohort": "2027届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "审计专员2027届",
+      "助理/技术开发工程师2027届",
+      "技术开发工程师2027届",
+      "营销专员（亚洲英语区）2027届",
+      "营销专员（非洲法语区）2027届",
+      "营销专员（俄语区）2027届"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -2861,6 +3139,69 @@
     "campus_only": false,
     "first_seen": "2026-07-10",
     "last_seen": "2026-07-10",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中国纺科院",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "研发工程师（智能制造方向）"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中国联合工程",
+    "cohort": "2026届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "【2026校招】策划咨询及运营师(J10976)"
+    ],
+    "locations": [
+      "杭州"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中国联合装备",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "运营管理部(数字化工作办公室)高级专员"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -3279,6 +3620,27 @@
     "confirmed_by": 1
   },
   {
+    "company": "中建五局山东",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "财务管理"
+    ],
+    "locations": [
+      "济南"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "中建八局一公司",
     "cohort": "不限",
     "batch": "实习",
@@ -3389,6 +3751,48 @@
     "campus_only": false,
     "first_seen": "2026-07-12",
     "last_seen": "2026-07-12",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中服免税三亚",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "资金专员"
+    ],
+    "locations": [
+      "三亚"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中材科技风电叶片",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "气动工程师"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -3579,6 +3983,48 @@
     "confirmed_by": 2
   },
   {
+    "company": "中航勘察设计院",
+    "cohort": "2026届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "中航勘察设计研究院2026年校园招聘补录--测绘工程师"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中航天建设",
+    "cohort": "2027届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "2027应届生-给排水暖通技术员"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "中船七〇二所",
     "cohort": "不限",
     "batch": "开放日",
@@ -3593,6 +4039,27 @@
     "campus_only": false,
     "first_seen": "2026-06-21",
     "last_seen": "2026-06-22",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中色奥博特",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "信息化管理员"
+    ],
+    "locations": [
+      "聊城"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -3651,6 +4118,90 @@
     "confirmed_by": 1
   },
   {
+    "company": "中车戚墅堰",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "法务合规专员"
+    ],
+    "locations": [
+      "常州"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中远海运博鳌",
+    "cohort": "2026届",
+    "batch": "正式批",
+    "program": "管理培训生（数智化方向）",
+    "industry": "央国企",
+    "positions": [
+      "2026届管理培训生（数智化方向）"
+    ],
+    "locations": [
+      "琼海"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中远海运航空货运",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "营销部营销策划专员"
+    ],
+    "locations": [
+      "上海"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "中远海运船员管理",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "宣传与企业文化岗"
+    ],
+    "locations": [
+      "上海"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "中铁上海院",
     "cohort": "2027届",
     "batch": "正式批",
@@ -3671,6 +4222,23 @@
     "first_seen": "2026-07-08",
     "last_seen": "2026-07-13",
     "confirmed_by": 2
+  },
+  {
+    "company": "中铁上海院",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "央国企",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
   },
   {
     "company": "中铁六院",
@@ -3719,6 +4287,29 @@
     "confirmed_by": 1
   },
   {
+    "company": "中青博联",
+    "cohort": "2027届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "内控合规（审计）助理",
+      "人力资源助理",
+      "财务助理"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "乐鑫科技",
     "cohort": "2027届",
     "batch": "正式批",
@@ -3740,6 +4331,51 @@
     "campus_only": false,
     "first_seen": "2026-07-05",
     "last_seen": "2026-07-05",
+    "confirmed_by": 1
+  },
+  {
+    "company": "云天化",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "工艺技术",
+      "地质技术"
+    ],
+    "locations": [
+      "红河",
+      "昆明"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "五矿石墨",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "人力资源岗",
+      "法务岗"
+    ],
+    "locations": [
+      "鹤岗"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -3868,6 +4504,27 @@
     "confirmed_by": 1
   },
   {
+    "company": "人保寿险南京",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": "管培生",
+    "industry": "央国企",
+    "positions": [
+      "管培生"
+    ],
+    "locations": [
+      "南京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "伏达半导体",
     "cohort": "2027届",
     "batch": "实习",
@@ -3936,6 +4593,57 @@
     "first_seen": "2026-07-11",
     "last_seen": "2026-07-13",
     "confirmed_by": 2
+  },
+  {
+    "company": "兆易创新",
+    "cohort": "2027届",
+    "batch": "提前批",
+    "program": null,
+    "industry": "半导体/硬件",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://app.mokahr.com/m/campus-recruitment/gigadevice/92215?locale=zh-CN",
+    "official_wechat": "http://weixin.qq.com/r/tnXt9W3EejAFrSmW9yCk",
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "兴云数科",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": "未来领军",
+    "industry": "其他",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://app.mokahr.com/su/ymelwg",
+    "official_wechat": "http://weixin.qq.com/r/YkOLk83EmJDnrYnw9xZw",
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "兵器203所",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "军工/研究所",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
   },
   {
     "company": "兵器206所",
@@ -4031,6 +4739,27 @@
     "campus_only": false,
     "first_seen": "2026-07-11",
     "last_seen": "2026-07-11",
+    "confirmed_by": 1
+  },
+  {
+    "company": "华东材料无锡",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "行政管理岗"
+    ],
+    "locations": [
+      "无锡"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -4143,6 +4872,27 @@
     "confirmed_by": 1
   },
   {
+    "company": "华润双鹤",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": "管培生",
+    "industry": "央国企",
+    "positions": [
+      "人力资源管培生"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "华润银行",
     "cohort": "2027届",
     "batch": "实习",
@@ -4221,6 +4971,38 @@
     "campus_only": false,
     "first_seen": "2026-07-12",
     "last_seen": "2026-07-12",
+    "confirmed_by": 1
+  },
+  {
+    "company": "合肥水泥院",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "材料研发工程师",
+      "机械研发工程师",
+      "焊接工艺研发工程师",
+      "智能制造研发工程师（精密检测方向）",
+      "智能制造研发工程师（精密控制方向）",
+      "机械结构研发工程师",
+      "精密加工工艺工程师",
+      "精密加工研发工程师",
+      "热化学研发工程师 （材料化工方向）",
+      "研发工程师（无机非金属矿/机械）",
+      "热化学研发工程师（热化学方向）",
+      "金属选矿研发工程师"
+    ],
+    "locations": [
+      "合肥"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -4424,6 +5206,174 @@
     "confirmed_by": 1
   },
   {
+    "company": "国投人力",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": "国聘生态专项招聘",
+    "industry": "央国企",
+    "positions": [
+      "国聘生态专项招聘"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国投健康福州",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "综合管理岗"
+    ],
+    "locations": [
+      "福州"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国投健康邵武",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "综合管理岗"
+    ],
+    "locations": [
+      "福州"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国投种业",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "育种管理岗",
+      "分子检测岗",
+      "DH系创制岗"
+    ],
+    "locations": [
+      "三亚"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国投证券",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "银行/金融",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国控宁夏",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "营销项目专员",
+      "法务岗"
+    ],
+    "locations": [
+      "银川"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国控江苏",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "物流运营专员",
+      "法务专员"
+    ],
+    "locations": [
+      "南京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国控湖南",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "法律合规部校招生"
+    ],
+    "locations": [
+      "长沙"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "国新国际",
     "cohort": "2027届",
     "batch": "实习",
@@ -4491,6 +5441,85 @@
     "campus_only": false,
     "first_seen": "2026-07-07",
     "last_seen": "2026-07-07",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国联研究院",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "市场推广专员"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国药控股",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "员工关系管理专员",
+      "咨询项目管理专员"
+    ],
+    "locations": [
+      "上海"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "国药新疆新特",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "财务部 王家梁共享中心 会计",
+      "市场部市场推广员",
+      "风险运营管理专员",
+      "吐鲁番 供应链组织者",
+      "智慧供应链中心 采购计划员",
+      "终端中心 市场拓展员",
+      "党群工作部 党务专员",
+      "物流中心 物流管理储备岗",
+      "采购中心 医药采购员",
+      "终端中心 销售员",
+      "审计合规部 法务专员",
+      "医院中心销售员（管理储备岗）",
+      "医院中心销售员-吐鲁番、和田、喀什",
+      "终端中心 伊犁销售员"
+    ],
+    "locations": [
+      "乌鲁木齐",
+      "吐鲁番",
+      "伊犁"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -4623,13 +5652,13 @@
     "positions": [],
     "locations": [],
     "apply_url": null,
-    "official_wechat": null,
+    "official_wechat": "http://weixin.qq.com/r/tnXt9W3EejAFrSmW9yCk",
     "qr_image": null,
     "deadline": null,
     "campus_only": false,
     "first_seen": "2026-07-07",
-    "last_seen": "2026-07-07",
-    "confirmed_by": 1
+    "last_seen": "2026-07-13",
+    "confirmed_by": 2
   },
   {
     "company": "大疆",
@@ -4647,6 +5676,49 @@
     "first_seen": "2026-06-25",
     "last_seen": "2026-06-26",
     "confirmed_by": 2
+  },
+  {
+    "company": "大连中远海运物流",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "船务部航线运营岗"
+    ],
+    "locations": [
+      "大连"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "天伟生物制药",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "设备工程师",
+      "采购专员"
+    ],
+    "locations": [
+      "上海"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
   },
   {
     "company": "天翼云",
@@ -4770,6 +5842,44 @@
     "confirmed_by": 1
   },
   {
+    "company": "威奇达药业",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "生产储备"
+    ],
+    "locations": [
+      "南通"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "字节跳动",
+    "cohort": "2027届",
+    "batch": "提前批",
+    "program": null,
+    "industry": "互联网",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://wj.toutiao.com/q/v2/7657509120173735979/975xOc70/4d7d/#/",
+    "official_wechat": "http://weixin.qq.com/r/tnXt9W3EejAFrSmW9yCk",
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "宁德时代",
     "cohort": "2027届",
     "batch": "实习",
@@ -4837,6 +5947,50 @@
     "campus_only": false,
     "first_seen": "2026-06-17",
     "last_seen": "2026-06-17",
+    "confirmed_by": 1
+  },
+  {
+    "company": "安能二局上海",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "项目工程会计岗"
+    ],
+    "locations": [
+      "全国"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "宝武资源",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "铁路信号工程师",
+      "运输调度员",
+      "机车维修工程师"
+    ],
+    "locations": [
+      "几内亚马西铁路"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -4921,6 +6075,23 @@
     "confirmed_by": 2
   },
   {
+    "company": "小鹏",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "新能源车企",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "小鹏汽车",
     "cohort": "不限",
     "batch": "实习",
@@ -4940,6 +6111,27 @@
     "confirmed_by": 1
   },
   {
+    "company": "山东电工运检",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "财务管理"
+    ],
+    "locations": [
+      "济南"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "山东能源",
     "cohort": "不限",
     "batch": "其他",
@@ -4954,6 +6146,27 @@
     "campus_only": false,
     "first_seen": "2026-06-30",
     "last_seen": "2026-06-30",
+    "confirmed_by": 1
+  },
+  {
+    "company": "广州中远海运物流",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "外勤"
+    ],
+    "locations": [
+      "全国"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -5186,6 +6399,31 @@
     "campus_only": false,
     "first_seen": "2026-07-11",
     "last_seen": "2026-07-11",
+    "confirmed_by": 1
+  },
+  {
+    "company": "惠阳航空螺旋桨",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "技能操作岗（劳务派遣）",
+      "系统总体设计员",
+      "气动设计员",
+      "销售工程师",
+      "设计员"
+    ],
+    "locations": [
+      "保定"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -5692,6 +6930,23 @@
     "confirmed_by": 1
   },
   {
+    "company": "武汉亚洲生物",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "医药/生物",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "武汉理工大学双选会",
     "cohort": "2027届",
     "batch": "宣讲会",
@@ -5847,6 +7102,27 @@
     "campus_only": false,
     "first_seen": "2026-07-02",
     "last_seen": "2026-07-02",
+    "confirmed_by": 1
+  },
+  {
+    "company": "浙江联通",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "新闻宣传"
+    ],
+    "locations": [
+      "绍兴"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -6088,6 +7364,23 @@
     "confirmed_by": 1
   },
   {
+    "company": "点点互动",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "游戏",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://ddhd.cn/4",
+    "official_wechat": "http://weixin.qq.com/r/tnXt9W3EejAFrSmW9yCk",
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "爱立信",
     "cohort": "2026届",
     "batch": "正式批",
@@ -6191,6 +7484,48 @@
     "confirmed_by": 1
   },
   {
+    "company": "现代制药",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "综合事务管理岗（审计）"
+    ],
+    "locations": [
+      "上海"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "现代制药营销",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "销售经理"
+    ],
+    "locations": [
+      "广东"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "理想汽车",
     "cohort": "2027届",
     "batch": "其他",
@@ -6287,8 +7622,8 @@
     "deadline": null,
     "campus_only": false,
     "first_seen": "2026-07-09",
-    "last_seen": "2026-07-10",
-    "confirmed_by": 3
+    "last_seen": "2026-07-13",
+    "confirmed_by": 4
   },
   {
     "company": "百度",
@@ -6513,6 +7848,27 @@
     "campus_only": false,
     "first_seen": "2026-07-06",
     "last_seen": "2026-07-06",
+    "confirmed_by": 1
+  },
+  {
+    "company": "精方药业",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "自动化工程师"
+    ],
+    "locations": [
+      "宣城"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -6784,6 +8140,23 @@
     "confirmed_by": 1
   },
   {
+    "company": "腾讯",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": "混元青云计划",
+    "industry": "互联网",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "腾讯光子",
     "cohort": "不限",
     "batch": "实习",
@@ -6854,6 +8227,27 @@
     "confirmed_by": 1
   },
   {
+    "company": "航天万源",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "计划调度"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "航天四院四十一所",
     "cohort": "不限",
     "batch": "实习",
@@ -6888,6 +8282,27 @@
     "confirmed_by": 1
   },
   {
+    "company": "航天新长征",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "综合商务岗"
+    ],
+    "locations": [
+      "北京"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "航天智能院",
     "cohort": "2027届",
     "batch": "正式批",
@@ -6914,7 +8329,7 @@
     "campus_only": false,
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
-    "confirmed_by": 1
+    "confirmed_by": 2
   },
   {
     "company": "航天科工二院",
@@ -7070,6 +8485,23 @@
     "confirmed_by": 1
   },
   {
+    "company": "航空工业设备工程",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "军工/研究所",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "航空工业通飞",
     "cohort": "不限",
     "batch": "正式批",
@@ -7101,6 +8533,23 @@
     "campus_only": false,
     "first_seen": "2026-07-10",
     "last_seen": "2026-07-10",
+    "confirmed_by": 1
+  },
+  {
+    "company": "航空工业雷达所",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "军工/研究所",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -7180,6 +8629,23 @@
     "first_seen": "2026-06-22",
     "last_seen": "2026-06-22",
     "confirmed_by": 1
+  },
+  {
+    "company": "虹软科技",
+    "cohort": "2027届",
+    "batch": "提前批",
+    "program": null,
+    "industry": "互联网",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": "http://weixin.qq.com/r/7i2ZgevEerYFra-i93j8",
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 2
   },
   {
     "company": "西安近代化学研究所",
@@ -7320,6 +8786,48 @@
     "campus_only": false,
     "first_seen": "2026-07-10",
     "last_seen": "2026-07-10",
+    "confirmed_by": 1
+  },
+  {
+    "company": "贵州航天计量所",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "人事管理岗"
+    ],
+    "locations": [
+      "贵阳"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "赛鼎宁波",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "法务专员"
+    ],
+    "locations": [
+      "宁波"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
@@ -7532,6 +9040,49 @@
     "confirmed_by": 1
   },
   {
+    "company": "钢研昊普",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "材料工程师"
+    ],
+    "locations": [
+      "苏州"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "锦州新时代集装箱",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "行政人事部企业管理岗",
+      "操作部码头运营岗"
+    ],
+    "locations": [
+      "锦州"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "镭目科技",
     "cohort": "2027届",
     "batch": "正式批",
@@ -7569,6 +9120,27 @@
     "first_seen": "2026-07-03",
     "last_seen": "2026-07-13",
     "confirmed_by": 2
+  },
+  {
+    "company": "长城证券",
+    "cohort": "2027届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "【2027规划发展部】战略管理岗"
+    ],
+    "locations": [
+      "深圳"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
   },
   {
     "company": "长安银行",
@@ -7757,6 +9329,23 @@
     "confirmed_by": 5
   },
   {
+    "company": "阳光电源",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "制造业",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
     "company": "阶跃星辰",
     "cohort": "2027届",
     "batch": "正式批",
@@ -7869,6 +9458,44 @@
     "campus_only": false,
     "first_seen": "2026-06-17",
     "last_seen": "2026-06-17",
+    "confirmed_by": 1
+  },
+  {
+    "company": "韶音科技",
+    "cohort": "2027届",
+    "batch": "提前批",
+    "program": null,
+    "industry": "其他",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://app.mokahr.com/m/campus_apply/aftershokzhr/36940?recommendCode=DSB1zC6x&hash=%23%2Fjobs",
+    "official_wechat": "http://weixin.qq.com/r/PS0EHJ7EqcPWrdp-93gv",
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "风神轮胎太原",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "设备技术员"
+    ],
+    "locations": [
+      "太原"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-13",
+    "last_seen": "2026-07-13",
     "confirmed_by": 1
   },
   {
