@@ -173,7 +173,13 @@ const BUBBLES = `<svg viewBox="0 0 90 54" fill="none" stroke="#8a887f" stroke-wi
   <ellipse cx="20" cy="40" rx="4" ry="3"/><ellipse cx="32" cy="28" rx="6" ry="4.5"/>
   <path d="M48 6 C 60 2, 76 6, 78 14 C 80 22, 68 26, 56 24 C 46 22.5, 40 16, 44 10 C 45.5 8, 46.5 7, 48 6 Z"/></svg>`;
 
-const inds = ["全部", ...new Set(JOBS.map(j=>j.industry))];
+const IND_ORDER = ["互联网","新能源车企","快消/零售","银行/金融","半导体/硬件",
+  "外企","医药/生物","游戏","传统车企","制造业",
+  "央国企","军工/研究所","高校/事业单位","其他"];
+const inds = ["全部", ...[...new Set(JOBS.map(j=>j.industry))].sort((a,b)=>{
+  const ia = IND_ORDER.indexOf(a), ib = IND_ORDER.indexOf(b);
+  return (ia<0?IND_ORDER.length-1.5:ia) - (ib<0?IND_ORDER.length-1.5:ib);
+})];
 $("#chips").innerHTML = inds.map(i=>
   `<button class="chip${i==="全部"?" on":""}" data-i="${i}">${i}</button>`).join("");
 
