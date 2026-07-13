@@ -1,6 +1,6 @@
 # 2027届秋招信息汇总
 
-> 自动聚合，每日更新 ｜ 更新时间：2026-07-13 23:21 ｜ 共 366 条
+> 自动聚合，每日更新 ｜ 更新时间：2026-07-13 23:24 ｜ 共 366 条
 >
 > ✅×N = 多个渠道交叉确认 ｜ ⏰ = 7 天内截止 ｜ [在线浏览页面](https://xixicc186.github.io/xixicc2027/)
 
@@ -441,6 +441,42 @@
 | 航天科技 | - | 2027届 | 提前批 | - | - | - | [网申链接](https://m.spacetalent.com.cn/ht-mobile/discovery) |
 | 航天科技集团 | - | 不限 | 提前批 | - | - | - | [网申链接](https://m.spacetalent.com.cn/ht-mobile/discovery) |
 | 辽宁庆阳特种化工 | - | 2026届 | 正式批 | - | - | - | [网申链接](https://m.zhaopin.com/xiaoyuan/company/detail?redirect=mxiaoyuan&comid=KA0658334228P90000001000&productId=-1&channelId=-1) |
+
+---
+
+## 🤖 Agent Skill：qiuzhao-feed
+
+本仓库自带一个 [Agent Skill](skill/qiuzhao-feed/SKILL.md)，装到 Claude Code（或任何支持 skill 的 agent）里之后，对 agent 说一句「看看最新秋招」，它就会自动抓取本仓库的最新数据、渲染成网页并在浏览器打开。
+
+**它有什么用：**
+
+- 📥 **数据永远最新** — 每次都从本仓库实时拉取 `jobs.json`，不存在本地过期缓存
+- 🖥️ **一句话出页面** — 自动注入前端模板生成可交互网页，按时间轴浏览全部秋招信息
+- 🔍 **按需过滤** — 支持按行业（互联网/央国企/银行金融…）、关键词（公司名/岗位）、截止天数筛选，比如「看看互联网里有算法岗的」「哪些 7 天内截止」
+- 📋 **顺手出简报** — 终端同时输出统计：行业分布、临期清单、最新收录，agent 可直接整理成日报
+
+**安装**（复制粘贴执行，只有两个文件，纯 Python 标准库，无需装依赖）：
+
+```bash
+mkdir -p ~/.claude/skills/qiuzhao-feed/scripts
+curl -fsSL https://raw.githubusercontent.com/xixicc186/xixicc2027/main/skill/qiuzhao-feed/SKILL.md -o ~/.claude/skills/qiuzhao-feed/SKILL.md
+curl -fsSL https://raw.githubusercontent.com/xixicc186/xixicc2027/main/skill/qiuzhao-feed/scripts/fetch_render.py -o ~/.claude/skills/qiuzhao-feed/scripts/fetch_render.py
+```
+
+**使用**：装好后在 Claude Code 里直接说自然语言即可触发，例如：
+
+- 「看看最新秋招」「打开秋招页面」
+- 「互联网有哪些在招的」「看看央国企的秋招」
+- 「哪些公司快截止了」「有算法岗的秋招」
+
+不用 agent 也能单独跑脚本：
+
+```bash
+python3 ~/.claude/skills/qiuzhao-feed/scripts/fetch_render.py                    # 全量渲染并打开浏览器
+python3 ~/.claude/skills/qiuzhao-feed/scripts/fetch_render.py --industry 互联网   # 只看某行业
+python3 ~/.claude/skills/qiuzhao-feed/scripts/fetch_render.py --keyword 算法      # 关键词过滤
+python3 ~/.claude/skills/qiuzhao-feed/scripts/fetch_render.py --days 7           # 只看 7 天内截止
+```
 
 ---
 
