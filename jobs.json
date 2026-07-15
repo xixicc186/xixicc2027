@@ -1,210 +1,5 @@
 [
   {
-    "company": "RoboSense",
-    "cohort": "2027届",
-    "batch": "提前批",
-    "program": null,
-    "industry": "半导体/硬件",
-    "positions": [
-      "系统类",
-      "算法类",
-      "逻辑类",
-      "光机电类",
-      "硬件类",
-      "芯片类",
-      "规划类",
-      "测试类",
-      "软件类",
-      "制造技术类",
-      "产品管理类",
-      "项目管理类"
-    ],
-    "locations": [
-      "深圳",
-      "上海"
-    ],
-    "apply_url": "https://app.mokahr.com/su/sxlmff",
-    "official_wechat": "http://weixin.qq.com/r/tnXt9W3EejAFrSmW9yCk",
-    "qr_image": null,
-    "deadline": "2026-07-15",
-    "campus_only": false,
-    "first_seen": "2026-07-01",
-    "last_seen": "2026-07-07",
-    "confirmed_by": 2
-  },
-  {
-    "company": "中国能建江苏院",
-    "cohort": "2027届",
-    "batch": "实习",
-    "program": null,
-    "industry": "央国企",
-    "positions": [
-      "工程类（海洋能源/氢能/储能/电气/电力系统/结构/岩土/测绘）"
-    ],
-    "locations": [
-      "南京"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-15",
-    "campus_only": false,
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "confirmed_by": 1
-  },
-  {
-    "company": "中国能建江苏院",
-    "cohort": "2027届",
-    "batch": "实习",
-    "program": "暑期实习生计划",
-    "industry": "央国企",
-    "positions": [
-      "新型能源及储能类",
-      "电气工程类",
-      "土木工程类",
-      "能源动力类",
-      "技术经济类"
-    ],
-    "locations": [
-      "南京"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-15",
-    "campus_only": false,
-    "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "confirmed_by": 1
-  },
-  {
-    "company": "北京信息科技大学",
-    "cohort": "不限",
-    "batch": "正式批",
-    "program": null,
-    "industry": "高校/事业单位",
-    "positions": [],
-    "locations": [
-      "北京"
-    ],
-    "apply_url": "https://zhaopin.bistu.edu.cn",
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-15",
-    "campus_only": false,
-    "first_seen": "2026-07-11",
-    "last_seen": "2026-07-11",
-    "confirmed_by": 1
-  },
-  {
-    "company": "商务印书馆",
-    "cohort": "不限",
-    "batch": "实习",
-    "program": null,
-    "industry": "央国企",
-    "positions": [
-      "编辑助理"
-    ],
-    "locations": [
-      "北京"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-15",
-    "campus_only": false,
-    "first_seen": "2026-07-11",
-    "last_seen": "2026-07-11",
-    "confirmed_by": 1
-  },
-  {
-    "company": "广西籍学子回家看看",
-    "cohort": "不限",
-    "batch": "开放日",
-    "program": null,
-    "industry": "其他",
-    "positions": [],
-    "locations": [
-      "南宁"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-15",
-    "campus_only": false,
-    "first_seen": "2026-07-09",
-    "last_seen": "2026-07-09",
-    "confirmed_by": 1
-  },
-  {
-    "company": "浙江省三支一扶",
-    "cohort": "2026届",
-    "batch": "选调",
-    "program": null,
-    "industry": "其他",
-    "positions": [],
-    "locations": [],
-    "apply_url": "http://qssy.zjks.com/",
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-15",
-    "campus_only": false,
-    "first_seen": "2026-07-09",
-    "last_seen": "2026-07-09",
-    "confirmed_by": 1
-  },
-  {
-    "company": "自然资源部海岛研究中心",
-    "cohort": "不限",
-    "batch": "正式批",
-    "program": null,
-    "industry": "高校/事业单位",
-    "positions": [
-      "专业技术岗01",
-      "专业技术岗02",
-      "专业技术岗03",
-      "机关管理岗01"
-    ],
-    "locations": [
-      "平潭"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-15",
-    "campus_only": false,
-    "first_seen": "2026-07-06",
-    "last_seen": "2026-07-06",
-    "confirmed_by": 1
-  },
-  {
-    "company": "航天513所",
-    "cohort": "2027届",
-    "batch": "实习",
-    "program": null,
-    "industry": "军工/研究所",
-    "positions": [
-      "通信类",
-      "电气类",
-      "计算机类",
-      "测试类",
-      "软件类",
-      "控制类"
-    ],
-    "locations": [
-      "烟台"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-15",
-    "campus_only": false,
-    "first_seen": "2026-07-08",
-    "last_seen": "2026-07-08",
-    "confirmed_by": 1
-  },
-  {
     "company": "中国空空导弹研究院",
     "cohort": "2027届",
     "batch": "开放日",
@@ -283,6 +78,25 @@
     "campus_only": false,
     "first_seen": "2026-07-10",
     "last_seen": "2026-07-10",
+    "confirmed_by": 1
+  },
+  {
+    "company": "张家界市市直事业单位",
+    "cohort": "不限",
+    "batch": "其他",
+    "program": null,
+    "industry": "高校/事业单位",
+    "positions": [],
+    "locations": [
+      "张家界"
+    ],
+    "apply_url": "https://zk.cshr.cn",
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": "2026-07-17",
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -475,6 +289,25 @@
     "confirmed_by": 1
   },
   {
+    "company": "即墨区乡村振兴专员",
+    "cohort": "2026届",
+    "batch": "其他",
+    "program": "乡村振兴专员",
+    "industry": "其他",
+    "positions": [],
+    "locations": [
+      "青岛市即墨区"
+    ],
+    "apply_url": "http://url.jiuyejie.cn/jmzzb/xczxzy.php",
+    "official_wechat": "http://weixin.qq.com/r/YkOLk83EmJDnrYnw9xZw",
+    "qr_image": null,
+    "deadline": "2026-07-21",
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "confirmed_by": 1
+  },
+  {
     "company": "江西师范大学及附属中学",
     "cohort": "不限",
     "batch": "正式批",
@@ -508,6 +341,25 @@
     "campus_only": false,
     "first_seen": "2026-07-14",
     "last_seen": "2026-07-14",
+    "confirmed_by": 1
+  },
+  {
+    "company": "老河口市高中职校",
+    "cohort": "2026届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "高校/事业单位",
+    "positions": [],
+    "locations": [
+      "老河口市"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": "2026-07-24",
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -576,6 +428,31 @@
     "campus_only": false,
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "江西农商银行",
+    "cohort": "2026届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "银行/金融",
+    "positions": [
+      "管培生",
+      "专业技术岗",
+      "财务税收岗",
+      "信息科技岗",
+      "客户经理岗"
+    ],
+    "locations": [
+      "江西"
+    ],
+    "apply_url": "https://jxnsyh.zhaopin.com",
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": "2026-07-27",
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -895,6 +772,23 @@
     "first_seen": "2026-07-09",
     "last_seen": "2026-07-13",
     "confirmed_by": 4
+  },
+  {
+    "company": "点点互动",
+    "cohort": "不限",
+    "batch": "正式批",
+    "program": "Elite Program",
+    "industry": "游戏",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://ddhd.cn/4/jobs?shareId=c80fdc98-5648-4049-8023-913f1598893a&shareSource=1&qr=1",
+    "official_wechat": "http://weixin.qq.com/r/mp/ohFHX9DECo11rZQ890Sw",
+    "qr_image": null,
+    "deadline": "2026-08-31",
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "confirmed_by": 1
   },
   {
     "company": "绿城中国",
@@ -2190,6 +2084,29 @@
     "campus_only": false,
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "上海世博展览馆",
+    "cohort": "不限",
+    "batch": "实习",
+    "program": null,
+    "industry": "央国企",
+    "positions": [
+      "运营实习生",
+      "文创商店实习生",
+      "活动执行实习生"
+    ],
+    "locations": [
+      "上海"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -3990,6 +3907,23 @@
     "confirmed_by": 1
   },
   {
+    "company": "中船智海创新研究院",
+    "cohort": "2027届",
+    "batch": "开放日",
+    "program": null,
+    "industry": "央国企",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "confirmed_by": 1
+  },
+  {
     "company": "中色奥博特",
     "cohort": "不限",
     "batch": "正式批",
@@ -4548,16 +4482,46 @@
     "batch": "提前批",
     "program": null,
     "industry": "半导体/硬件",
-    "positions": [],
-    "locations": [],
+    "positions": [
+      "模拟设计工程师",
+      "电路设计工程师",
+      "数字电路设计工程师",
+      "数字设计/验证工程师",
+      "数字后端工程师",
+      "嵌入式硬件工程师",
+      "产品器件工程师",
+      "固件前端/后端开发工程师",
+      "CAD工程师",
+      "模拟电路设计工程师",
+      "射频模拟设计工程师",
+      "高速接口设计工程师",
+      "逻辑设计/验证工程师",
+      "数字中端（BES）工程师",
+      "嵌入式软件工程师",
+      "嵌入式软件开发工程师",
+      "芯片架构设计工程师",
+      "器件工程师"
+    ],
+    "locations": [
+      "北京",
+      "上海",
+      "深圳",
+      "西安",
+      "成都",
+      "合肥",
+      "苏州",
+      "武汉",
+      "珠海",
+      "横琴"
+    ],
     "apply_url": "https://app.mokahr.com/m/campus-recruitment/gigadevice/92215?locale=zh-CN",
     "official_wechat": "http://weixin.qq.com/r/tnXt9W3EejAFrSmW9yCk",
     "qr_image": null,
     "deadline": null,
     "campus_only": false,
     "first_seen": "2026-07-13",
-    "last_seen": "2026-07-13",
-    "confirmed_by": 1
+    "last_seen": "2026-07-15",
+    "confirmed_by": 2
   },
   {
     "company": "兆易创新",
@@ -4646,6 +4610,25 @@
     "campus_only": false,
     "first_seen": "2026-07-09",
     "last_seen": "2026-07-09",
+    "confirmed_by": 1
+  },
+  {
+    "company": "凡岛",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": "校园大使招募",
+    "industry": "快消/零售",
+    "positions": [
+      "校园大使"
+    ],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -4884,6 +4867,29 @@
     "first_seen": "2026-07-10",
     "last_seen": "2026-07-13",
     "confirmed_by": 2
+  },
+  {
+    "company": "华润银行",
+    "cohort": "2027届",
+    "batch": "实习",
+    "program": "星梦营",
+    "industry": "银行/金融",
+    "positions": [
+      "分行中后台业务实习生",
+      "分行营销业务实习生",
+      "分行运营服务实习生"
+    ],
+    "locations": [
+      "大湾区各分行"
+    ],
+    "apply_url": "https://www.crbank.com.cn/",
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "confirmed_by": 1
   },
   {
     "company": "博亚涛",
@@ -5505,6 +5511,23 @@
     "confirmed_by": 1
   },
   {
+    "company": "圆通速递",
+    "cohort": "2027届",
+    "batch": "正式批",
+    "program": "精彩计划",
+    "industry": "其他",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "confirmed_by": 1
+  },
+  {
     "company": "复星",
     "cohort": "2027届",
     "batch": "实习",
@@ -5755,6 +5778,57 @@
     "campus_only": false,
     "first_seen": "2026-07-08",
     "last_seen": "2026-07-08",
+    "confirmed_by": 1
+  },
+  {
+    "company": "天锐星通",
+    "cohort": "2027届",
+    "batch": "提前批",
+    "program": "星锐计划",
+    "industry": "半导体/硬件",
+    "positions": [
+      "模拟IC设计工程师",
+      "射频IC设计工程师",
+      "天线工程师",
+      "射频工程师",
+      "硬件工程师",
+      "结构工程师",
+      "逻辑工程师",
+      "嵌入式工程师",
+      "测试方法研究工程师",
+      "AI agent工程师"
+    ],
+    "locations": [
+      "南京",
+      "上海",
+      "成都"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "confirmed_by": 1
+  },
+  {
+    "company": "天锐星通",
+    "cohort": "不限",
+    "batch": "开放日",
+    "program": null,
+    "industry": "半导体/硬件",
+    "positions": [],
+    "locations": [
+      "成都"
+    ],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -6017,6 +6091,23 @@
     "campus_only": false,
     "first_seen": "2026-07-14",
     "last_seen": "2026-07-14",
+    "confirmed_by": 1
+  },
+  {
+    "company": "富兰瓦时",
+    "cohort": "2027届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "其他",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://app135149.dingtalkoxm.com/m/campus-recruitment/franklinwh/100004450?locale=zh-CN",
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -6832,6 +6923,23 @@
     "confirmed_by": 1
   },
   {
+    "company": "智元",
+    "cohort": "2027届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "制造业",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://agirobot.jobs.feishu.cn/s/RTsyUOlGqSM",
+    "official_wechat": "http://weixin.qq.com/r/YkOLk83EmJDnrYnw9xZw",
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "confirmed_by": 1
+  },
+  {
     "company": "有道领世",
     "cohort": "2027届",
     "batch": "实习",
@@ -6863,6 +6971,54 @@
     "campus_only": false,
     "first_seen": "2026-06-16",
     "last_seen": "2026-06-16",
+    "confirmed_by": 1
+  },
+  {
+    "company": "杰华特",
+    "cohort": "2027届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "半导体/硬件",
+    "positions": [
+      "模拟IC设计工程师",
+      "系统工程师",
+      "AI工程师",
+      "数字IC设计工程师（前端）",
+      "数字IC验证工程师",
+      "数字后端工程师",
+      "应用工程师",
+      "功能安全工程师",
+      "数模混合验证工程师",
+      "器件工程师",
+      "模型工程师",
+      "PDK工程师",
+      "封装设计工程师",
+      "产品工程师",
+      "失效分析工程师",
+      "良率提升工程师",
+      "测试开发工程师",
+      "版图设计助理工程师",
+      "应用助理工程师",
+      "产品助理工程师",
+      "失效分析助理工程师",
+      "良率提升助理工程师",
+      "测试开发助理工程师",
+      "量产测试助理工程师",
+      "可靠性助理工程师",
+      "客户质量助理工程师",
+      "设备助理工程师",
+      "NPI助理工程师",
+      "现场应用工程师",
+      "销售工程师"
+    ],
+    "locations": [],
+    "apply_url": "https://joulwatt.zhiye.com/",
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -7065,16 +7221,34 @@
     "batch": "正式批",
     "program": null,
     "industry": "制造业",
-    "positions": [],
-    "locations": [],
-    "apply_url": null,
+    "positions": [
+      "技术类",
+      "技能类",
+      "营销类",
+      "供应链管理类",
+      "质量类",
+      "其他职能类"
+    ],
+    "locations": [
+      "苏州",
+      "南京",
+      "深圳",
+      "上海",
+      "西安",
+      "北京",
+      "常州",
+      "武汉",
+      "济南",
+      "岳阳"
+    ],
+    "apply_url": "https://recruit.inovance.com",
     "official_wechat": "http://weixin.qq.com/r/tnXt9W3EejAFrSmW9yCk",
     "qr_image": null,
     "deadline": null,
     "campus_only": false,
     "first_seen": "2026-07-10",
-    "last_seen": "2026-07-10",
-    "confirmed_by": 1
+    "last_seen": "2026-07-15",
+    "confirmed_by": 2
   },
   {
     "company": "江西省农业农村厅",
@@ -7993,6 +8167,23 @@
     "campus_only": false,
     "first_seen": "2026-07-13",
     "last_seen": "2026-07-13",
+    "confirmed_by": 1
+  },
+  {
+    "company": "系统工程研究院",
+    "cohort": "2027届",
+    "batch": "开放日",
+    "program": null,
+    "industry": "央国企",
+    "positions": [],
+    "locations": [],
+    "apply_url": null,
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -9147,6 +9338,23 @@
     "confirmed_by": 1
   },
   {
+    "company": "迅雷",
+    "cohort": "2027届",
+    "batch": "其他",
+    "program": null,
+    "industry": "互联网",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://xlculture.mikecrm.com/WMhxLxv",
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
+    "confirmed_by": 1
+  },
+  {
     "company": "远大医药",
     "cohort": "2026届",
     "batch": "其他",
@@ -9238,6 +9446,23 @@
     "campus_only": false,
     "first_seen": "2026-07-11",
     "last_seen": "2026-07-11",
+    "confirmed_by": 1
+  },
+  {
+    "company": "郑州商品交易所",
+    "cohort": "不限",
+    "batch": "开放日",
+    "program": "暑期Openday",
+    "industry": "银行/金融",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://xym.51job.com/wechat/vuectmjobs/#/index?id=BECE9629-96ED-4D68-9580-97731B05C47D&color=31BE88&prd=yddzy",
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
@@ -9632,6 +9857,23 @@
     "campus_only": false,
     "first_seen": "2026-07-12",
     "last_seen": "2026-07-12",
+    "confirmed_by": 1
+  },
+  {
+    "company": "阿斯麦",
+    "cohort": "2027届",
+    "batch": "正式批",
+    "program": null,
+    "industry": "半导体/硬件",
+    "positions": [],
+    "locations": [],
+    "apply_url": "https://campus.51job.com/asml2027",
+    "official_wechat": null,
+    "qr_image": null,
+    "deadline": null,
+    "campus_only": false,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-07-15",
     "confirmed_by": 1
   },
   {
