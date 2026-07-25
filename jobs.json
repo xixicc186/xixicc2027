@@ -1,24 +1,5 @@
 [
   {
-    "company": "国家邮政局",
-    "cohort": "2026届",
-    "batch": "正式批",
-    "program": null,
-    "industry": "高校/事业单位",
-    "positions": [],
-    "locations": [
-      "北京"
-    ],
-    "apply_url": "https://www.sydwgkzp.cn/mohrss",
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-25",
-    "campus_only": false,
-    "first_seen": "2026-07-16",
-    "last_seen": "2026-07-16",
-    "confirmed_by": 1
-  },
-  {
     "company": "中国网络安全审查认证中心",
     "cohort": "2026届",
     "batch": "正式批",
