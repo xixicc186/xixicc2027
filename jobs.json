@@ -1,31 +1,5 @@
 [
   {
-    "company": "机场地勤",
-    "cohort": "不限",
-    "batch": "正式批",
-    "program": null,
-    "industry": "其他",
-    "positions": [
-      "旅客问询专员",
-      "民航票务专员",
-      "民航安全检查员",
-      "机场综合运营岗",
-      "机场值机员",
-      "航空器维修技术员"
-    ],
-    "locations": [
-      "北京"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-07-30",
-    "campus_only": false,
-    "first_seen": "2026-07-03",
-    "last_seen": "2026-07-03",
-    "confirmed_by": 1
-  },
-  {
     "company": "中准集团",
     "cohort": "不限",
     "batch": "实习",
