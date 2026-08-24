@@ -1,43 +1,5 @@
 [
   {
-    "company": "拼多多",
-    "cohort": "2027届",
-    "batch": "提前批",
-    "program": null,
-    "industry": "互联网",
-    "positions": [
-      "服务端研发工程师",
-      "算法工程师",
-      "客户端研发工程师",
-      "数据分析师",
-      "Web前端研发工程师",
-      "安全工程师",
-      "Al Agent研发工程师",
-      "产品管培生",
-      "市场管培生",
-      "商品运营管培生",
-      "合规运营管培生",
-      "视觉类+",
-      "设计管培生",
-      "视频创意制作",
-      "商家运营（多语种优势）",
-      "用户体验运营管培生（多语种优势）",
-      "法务助理",
-      "HR管培生"
-    ],
-    "locations": [
-      "上海"
-    ],
-    "apply_url": "https://careers.pddglobalhr.com/campus",
-    "official_wechat": "http://weixin.qq.com/r/tnXt9W3EejAFrSmW9yCk",
-    "qr_image": "qr/2962.png",
-    "deadline": "2026-08-23",
-    "campus_only": false,
-    "first_seen": "2026-07-09",
-    "last_seen": "2026-07-13",
-    "confirmed_by": 4
-  },
-  {
     "company": "点点互动",
     "cohort": "不限",
     "batch": "正式批",
