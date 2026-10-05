@@ -1,53 +1,5 @@
 [
   {
-    "company": "高盛",
-    "cohort": "2027届",
-    "batch": "实习",
-    "program": null,
-    "industry": "外企",
-    "positions": [
-      "分析员"
-    ],
-    "locations": [
-      "北京",
-      "上海",
-      "深圳",
-      "香港"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-10-05",
-    "campus_only": false,
-    "first_seen": "2026-07-08",
-    "last_seen": "2026-07-08",
-    "confirmed_by": 1
-  },
-  {
-    "company": "高盛",
-    "cohort": "2027届",
-    "batch": "正式批",
-    "program": null,
-    "industry": "外企",
-    "positions": [
-      "分析员"
-    ],
-    "locations": [
-      "北京",
-      "上海",
-      "深圳",
-      "香港"
-    ],
-    "apply_url": null,
-    "official_wechat": null,
-    "qr_image": null,
-    "deadline": "2026-10-05",
-    "campus_only": false,
-    "first_seen": "2026-07-08",
-    "last_seen": "2026-07-08",
-    "confirmed_by": 1
-  },
-  {
     "company": "东莞证券中山分公司",
     "cohort": "不限",
     "batch": "正式批",
